@@ -4,29 +4,30 @@ const OtherMenu = () => {
   const menuData = [
     {
       id: 7,
-      img: "/assets/img/menu7.jpg", // Görsel yolu düzeltildi
+      img: "src/assets/img/menu7.jpg",  // Görsel yolu düzeltildi
       title: "Margarita Marvel",
       price: "16.99",
     },
     {
       id: 8,
-      img: "/assets/img/menu8.jpg",
+      img: "src/assets/img/menu8.jpg",
       title: "Pesto Paradise",
       price: "18.99",
     },
     {
       id: 9,
-      img: "/assets/img/menu9.jpg",
+      img: "src/assets/img/menu9.jpg",
       title: "Hawaiian Bliss",
       price: "14.99",
     },
     {
       id: 10,
-      img: "/assets/img/menu10.jpg",
+      img: "src/assets/img/menu10.jpg",
       title: "Truffle Treasures",
       price: "15.99",
     },
   ];
+
   return (
     <div className="min-h-screen container flex flex-col justify-center items-center">
       <h1 className="text-4xl font-semibold text-center mt-20 md:mt-10 mb-3">
